@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/jp.co.omron.healthcare.sampleapps.ble.blesampleomron">
+
+    <PreferenceCategory android:title="@string/category_connection_settings">
+        <CheckBoxPreference
+            android:key="@string/key_assist_pairing_dialog"
+            android:title="@string/title_assist_pairing_dialog" />
+
+        <CheckBoxPreference
+            android:key="@string/key_use_create_bond"
+            android:title="@string/title_use_create_bond" />
+
+        <CheckBoxPreference
+            android:key="@string/key_auto_pairing_enabled"
+            android:title="@string/title_auto_pairing_enabled" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_auto_pairing_pin_code"
+            android:maxLength="8"
+            android:title="@string/title_auto_pairing_pin_code"
+            app:minLength="6" />
+
+        <CheckBoxPreference
+            android:key="@string/key_stable_connection_enabled"
+            android:title="@string/title_stable_connection_enabled" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_stable_connection_wait_time"
+            android:maxLength="4"
+            android:title="@string/title_stable_connection_wait_time"
+            app:minLength="1" />
+
+        <CheckBoxPreference
+            android:key="@string/key_connection_retry_enabled"
+            android:title="@string/title_connection_retry_enabled" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_connection_retry_delay_time"
+            android:maxLength="8"
+            android:title="@string/title_connection_retry_delay_time"
+            app:minLength="1" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_connection_retry_count"
+            android:maxLength="2"
+            android:title="@string/title_connection_retry_count"
+            app:minLength="1" />
+
+        <CheckBoxPreference
+            android:key="@string/key_discover_service_retry_enabled"
+            android:title="@string/title_discover_service_retry_enabled" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_discover_service_retry_delay_time"
+            android:maxLength="8"
+            android:title="@string/title_discover_service_retry_delay_time"
+            app:minLength="1" />
+
+        <jp.co.omron.healthcare.sampleapps.ble.blesampleomron.CustomEditTextPreference
+            android:inputType="numberDecimal"
+            android:key="@string/key_discover_service_retry_count"
+            android:maxLength="2"
+            android:title="@string/title_discover_service_retry_count"
+            app:minLength="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_communication_settings">
+        <CheckBoxPreference
+            android:key="@string/key_write_cts"
+            android:title="@string/title_write_cts" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/category_disconnection_settings">
+        <CheckBoxPreference
+            android:key="@string/key_use_remove_bond"
+            android:title="@string/title_use_remove_bond" />
+
+        <CheckBoxPreference
+            android:key="@string/key_use_refresh_gatt"
+            android:title="@string/title_use_refresh_gatt" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

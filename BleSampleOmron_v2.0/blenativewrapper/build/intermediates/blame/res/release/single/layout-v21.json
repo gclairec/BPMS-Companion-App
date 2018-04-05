@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

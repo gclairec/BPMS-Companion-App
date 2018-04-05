@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="scan_result_refresh_interval_millisecond">500</integer>
+    <integer name="animation_duration_millisecond">300</integer>
+</resources>

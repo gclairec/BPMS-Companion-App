@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BleSampleOmron_v2.0.iml" filepath="$PROJECT_DIR$/BleSampleOmron_v2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blenativewrapper/blenativewrapper.iml" filepath="$PROJECT_DIR$/blenativewrapper/blenativewrapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blesampleomron/blesampleomron.iml" filepath="$PROJECT_DIR$/blesampleomron/blesampleomron.iml" />
+    </modules>
+  </component>
+</project>

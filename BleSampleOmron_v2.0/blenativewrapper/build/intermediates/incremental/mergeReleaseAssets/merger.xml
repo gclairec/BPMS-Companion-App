@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\CLAIRE\Desktop\Thesis\bpmApp\BleSampleOmron_v2.0\BleSampleOmron_v2.0\blenativewrapper\src\main\assets"/><source path="C:\Users\CLAIRE\Desktop\Thesis\bpmApp\BleSampleOmron_v2.0\BleSampleOmron_v2.0\blenativewrapper\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="C:\Users\CLAIRE\Desktop\Thesis\bpmApp\BleSampleOmron_v2.0\BleSampleOmron_v2.0\blenativewrapper\src\release\assets"/></dataSet></merger>

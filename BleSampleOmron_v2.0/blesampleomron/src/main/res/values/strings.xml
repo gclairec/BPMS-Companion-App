@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BPMS_Companion_App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="help_save">file name</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_sendmail">Mail</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_loglevel">LogLevel</string>
+    <string name="btn_delete_log_file">Delete</string>
+    <string name="menu_startservice">Start Logcat service</string>
+    <string name="menu_stopservice">Stop Logcat service</string>
+    <string name="save_complete">The log file was saved.</string>
+    <string name="save_failed">Failed to save the log file.</string>
+    <string name="service_started">Logcat service started.</string>
+    <string name="service_stopped">Logcat service stopped.</string>
+    <string name="service_warning">Logcat service is not begun.</string>
+    <string name="delete_file_failed">Failed to delete log files.</string>
+    <string name="delete_file_complete">Log files were deleted.</string>
+    <string name="bluetooth_doesnt_work">Bluetooth isn\'t working on this device.\nPlease enable Bluetooth.</string>
+    <string name="confirm_pairing_request">Please confirm the pairing request.</string>
+    <string name="connect">Connect</string>
+    <string name="connecting">Connecting...</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnecting">Disconnecting...</string>
+    <string name="enable_bt">Enable BT</string>
+    <string name="disable_bt">Disable BT</string>
+    <string name="menu_settings">Settings</string>
+    <string name="location_permission_denied_message">You need permissions for location services.</string>
+    <string name="storage_permission_denied_message">You need permissions for storage.</string>
+    <string name="decibel_dbm">%1$d dBm</string>
+    <string name="milli_second">%1$d ms</string>
+    <string name="scan_start_failed_message">"Start scan failed."</string>
+    <string name="scan_stop_message">"Scan stopped."</string>
+    <string name="raw_data_title">Raw data:</string>
+    <string name="ad_structure_details_title">Details:</string>
+    <string name="ad_structure_length">LEN</string>
+    <string name="ad_structure_type">TYPE</string>
+    <string name="ad_structure_value">VALUE</string>
+    <string name="bond_state_none">NOT BONDED</string>
+    <string name="bond_state_bonding">BONDING</string>
+    <string name="bond_state_bonded">BONDED</string>
+    <string name="bond_state_unknown">BOND STATE UNKNOWN</string>
+    <string name="menu_initialize_settings">Initialize settings</string>
+
+    <!-- Preference Strings -->
+    <string name="category_connection_settings">Connection Parameters</string>
+    <string name="category_communication_settings">Communication Parameters</string>
+    <string name="category_disconnection_settings">Disconnection Parameters</string>
+    <string name="category_error_settings">Error Settings</string>
+
+    <string name="key_assist_pairing_dialog">key_assist_pairing_dialog</string>
+    <string name="title_assist_pairing_dialog">Assist Pairing Dialog</string>
+
+    <string name="key_use_create_bond">key_use_create_bond</string>
+    <string name="title_use_create_bond">Use createBond</string>
+
+    <string name="key_auto_pairing_enabled">key_auto_pairing_enabled</string>
+    <string name="title_auto_pairing_enabled">Auto Pairing</string>
+
+    <string name="key_auto_pairing_pin_code">key_auto_pairing_pin_code</string>
+    <string name="title_auto_pairing_pin_code">Pin Code</string>
+
+    <string name="key_stable_connection_enabled">key_stable_connection_enabled</string>
+    <string name="title_stable_connection_enabled">Stable Connection</string>
+
+    <string name="key_stable_connection_wait_time">key_stable_connection_wait_time</string>
+    <string name="title_stable_connection_wait_time">Stable Connection Wait Time</string>
+
+    <string name="key_connection_retry_enabled">key_connection_retry_enabled</string>
+    <string name="title_connection_retry_enabled">Connection Retry</string>
+
+    <string name="key_connection_retry_delay_time">key_connection_retry_delay_time</string>
+    <string name="title_connection_retry_delay_time">Connection Retry Delay Time</string>
+
+    <string name="key_connection_retry_count">key_connection_retry_count</string>
+    <string name="title_connection_retry_count">Connection Retry Count</string>
+
+    <string name="key_discover_service_retry_enabled">key_discover_service_retry_enabled</string>
+    <string name="title_discover_service_retry_enabled">Discover Service Retry</string>
+
+    <string name="key_discover_service_retry_delay_time">key_discover_service_retry_delay_time</string>
+    <string name="title_discover_service_retry_delay_time">Discover Service Retry Delay Time</string>
+
+    <string name="key_discover_service_retry_count">key_discover_service_retry_count</string>
+    <string name="title_discover_service_retry_count">Discover Service Retry Count</string>
+
+    <string name="key_write_cts">key_write_cts</string>
+    <string name="title_write_cts">Write CTS</string>
+
+    <string name="key_use_remove_bond">key_use_remove_bond</string>
+    <string name="title_use_remove_bond">Use removeBond</string>
+
+    <string name="key_use_refresh_gatt">key_use_refresh_gatt</string>
+    <string name="title_use_refresh_gatt">Use refreshGatt</string>
+
+    <string name="summary_format_time">%1$s ms</string>
+
+</resources>

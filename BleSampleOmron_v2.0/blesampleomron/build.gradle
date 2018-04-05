@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "jp.co.omron.healthcare.sampleapps.ble.blesampleomron"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "2.0.13"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+    applicationVariants.all { variant ->
+        def appName = "BleSampleOmron"
+        variant.outputs.all {
+            outputFileName = "${variant.name}-${variant.versionName}.apk"
+        }
+    }
+//    applicationVariants.all { variant ->
+//        def appName = "BleSampleOmron"
+//        variant.outputs.each { output ->
+//            if (output.outputFileName != null && output.outputFile.name.endsWith('.apk')) {
+//                def file = output.outputFile
+//                def newName = "${appName}_v${defaultConfig.versionName}.apk"
+//                output.outputFile = new File(output.outputFile.parent, newName)
+//            }
+//        }
+//    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    compile project(':blenativewrapper')
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/raw_data_title" />
+
+    <TextView
+        android:id="@+id/raw_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rounded_corners_4dp"
+        android:padding="8dp"
+        android:text="New Text New Text New Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New TextNew Text New Text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/ad_structure_details_title" />
+
+    <TableLayout
+        android:id="@+id/table_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_stroke_1dp"
+        android:padding="1dp"
+        android:shrinkColumns="0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_stroke_1dp"
+                android:padding="4dp"
+                android:text="@string/ad_structure_length" />
+
+            <TextView
+                android:layout_width="48dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_stroke_1dp"
+                android:padding="4dp"
+                android:text="@string/ad_structure_type" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape_stroke_1dp"
+                android:padding="4dp"
+                android:text="@string/ad_structure_value" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

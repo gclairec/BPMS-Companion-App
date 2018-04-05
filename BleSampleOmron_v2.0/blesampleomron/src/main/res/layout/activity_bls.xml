@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".BlsActivity">
+
+    <LinearLayout
+        android:id="@+id/llHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/tvBondStatusLavel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Bond Status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvBondStatusValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="---"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/tvACLStatusLavel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Acl Status"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvACLStatusValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="---"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/tvGattStatusLavel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Gatt Status"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvGattStatusValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="---"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:id="@+id/tvDetailedStateLavel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Detailed State"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvDetailedStateValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="---"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConnect"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:text="Connect" />
+
+            <Button
+                android:id="@+id/btnHistory"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="History" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/llFooter"
+        android:layout_below="@id/llHeader"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false">
+
+            <TableLayout
+                android:id="@+id/tlBloodPressure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#eeeeee"
+                android:stretchColumns="1">
+
+                <TableRow android:background="#cccccc">
+
+                    <TextView
+                        android:id="@+id/tvBPMLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Blood Pressure" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvTimestampLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Timestamp" />
+
+                    <TextView
+                        android:id="@+id/tvTimestampValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvSystolicLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Systolic" />
+
+                    <TextView
+                        android:id="@+id/tvSystolicValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvDiastolicLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Diastolic" />
+
+                    <TextView
+                        android:id="@+id/tvDiastolicValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvMeanAPLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mean Arterial" />
+
+                    <TextView
+                        android:id="@+id/tvMeanAPValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvPulseRateLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pulse Rate" />
+
+                    <TextView
+                        android:id="@+id/tvPulseRateValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow
+                    android:padding="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/tvUserIDLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="User ID" />
+
+                    <TextView
+                        android:id="@+id/tvUserIDValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvBodyMovementLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Body Movement" />
+
+                    <TextView
+                        android:id="@+id/tvBodyMovementValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvIrregularPulseLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Irregular Pulse" />
+
+                    <TextView
+                        android:id="@+id/tvIrregularPulseValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_height="10dp"
+                    android:background="#00000000"
+                    android:padding="5dp">
+
+                    <TextView android:layout_height="8dp" />
+                </TableRow>
+
+                <TableRow android:background="#cccccc">
+
+                    <TextView
+                        android:id="@+id/tvDevInfoLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Device Information" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvLocalNameValue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvBDAddrLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Address" />
+
+                    <TextView
+                        android:id="@+id/tvBDAddrValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvBatteryLevelLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Battery" />
+
+                    <TextView
+                        android:id="@+id/tvBatteryLevelValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+                <TableRow android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/tvCurrentTimeLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Time" />
+
+                    <TextView
+                        android:id="@+id/tvCurrentTimeValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="----" />
+                </TableRow>
+
+            </TableLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

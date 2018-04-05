@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\CLAIRE\\Downloads\\Compressed\\StarterKit_v2.0.1_2\\StarterKit_v2.0.1\\Sample Application Set\\Android\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\CLAIRE\\.android\\build-cache\\c1bd07787af355b28b26d080dcfbf107e01c5d89\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Downloads\\Compressed\\StarterKit_v2.0.1_2\\StarterKit_v2.0.1\\Sample Application Set\\Android\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\CLAIRE\\.android\\build-cache\\c1bd07787af355b28b26d080dcfbf107e01c5d89\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Downloads\\Compressed\\StarterKit_v2.0.1_2\\StarterKit_v2.0.1\\Sample Application Set\\Android\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\CLAIRE\\.android\\build-cache\\c1bd07787af355b28b26d080dcfbf107e01c5d89\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\CLAIRE\\Downloads\\Compressed\\StarterKit_v2.0.1_2\\StarterKit_v2.0.1\\Sample Application Set\\Android\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\CLAIRE\\.android\\build-cache\\c1bd07787af355b28b26d080dcfbf107e01c5d89\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]
