@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@color/splashBackground"
+    tools:context="com.bpmsthesis.claire.bpmsapplication.MainActivity">
+
+<ImageView
+    android:id="@+id/logo_id"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:layout_centerInParent="true"
+    android:src="@drawable/ic_bpmlogo"/>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/logo_id"
+        android:textAlignment="center">
+
+        <TextView
+            android:id="@+id/titleTxt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_centerHorizontal="true"
+            android:text="BPM"
+            android:textColor="@color/appName"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/titleTxt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/titleTxt1"
+            android:layout_alignBottom="@+id/titleTxt1"
+            android:layout_toEndOf="@+id/titleTxt1"
+            android:layout_toRightOf="@+id/titleTxt1"
+            android:text="Lab"
+            android:textColor="@color/appName"
+            android:textSize="30dp" />
+    </TableRow>
+
+</RelativeLayout>

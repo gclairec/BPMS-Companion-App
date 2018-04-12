@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -105,6 +106,7 @@ public class BleScanFragment extends Fragment {
     @Override
     public View onCreateView(
             LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         AppLog.dMethodIn();
         View view = inflater.inflate(R.layout.activity_ble_scan_list, container, false);
 
@@ -131,6 +133,7 @@ public class BleScanFragment extends Fragment {
                 OnEventListener eventListener = mListenerRef.get();
                 if (eventListener != null) {
                     DiscoverPeripheral item = mBleScanAdapter.getItem(position);
+
                     eventListener.onConnectRequest(item);
                 }
             }

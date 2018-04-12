@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5DBFC5</color>
+    <color name="colorPrimaryDark">#18A3AC</color>
+    <color name="colorAccent">#FA8024</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="splashBackground">#18A3AC</color>
+    <color name="blue">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="appName">#E8F6F7</color>
+</resources>

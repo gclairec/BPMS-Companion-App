@@ -145,7 +145,11 @@ public class BaseBleActivity extends AppCompatActivity {
                 if (mConnectBtn.getText().equals(getString(R.string.connect))) {
                     boolean requested = requestRuntimePermissions(sRequiredPermissions);
                     if (!requested) {
-                        startScanListView();
+
+                        Toast.makeText(BaseBleActivity.this, "Before Calling startScnListView", Toast.LENGTH_SHORT).show();
+                        startScanListView();//Calls Start Scan List View
+
+                        Toast.makeText(BaseBleActivity.this, "After calling startScanListView", Toast.LENGTH_SHORT).show();
                     }
                 } else if (mConnectBtn.getText().equals(getString(R.string.connecting))) {
                     disconnect(mTargetPeripheral, DisconnectReason.UserRequest);
@@ -320,6 +324,10 @@ public class BaseBleActivity extends AppCompatActivity {
         for (UUID uuid : mScanFilteringServiceUuids) {
             parcelUuidList.add(new ParcelUuid(uuid));
         }
+//        String uuid0 = parcelUuidList.get(0).getUuid().toString();
+//        Toast.makeText(BaseBleActivity.this, uuid0, Toast.LENGTH_LONG).show();
+
+
         intent.putParcelableArrayListExtra(BleScanActivity.EXTRA_SCAN_FILTERING_SERVICE_UUIDS, parcelUuidList);
         startActivityForResult(intent, REQUEST_CODE_SCAN);
     }
@@ -916,4 +924,19 @@ public class BaseBleActivity extends AppCompatActivity {
             return true;
         }
     }
+
+    public void startService(View view)
+    {
+        Intent intent = new Intent(this, BPServices.class);
+        startService(intent);
+    }
+
+    public void stopService(View view)
+    {
+        Intent intent = new Intent(this, BPServices.class);
+        stopService(intent);
+    }
+
+
+
 }

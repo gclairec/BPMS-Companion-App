@@ -9,19 +9,24 @@ package jp.co.omron.healthcare.sampleapps.ble.blesampleomron.scan;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.AppLog;
+import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.BaseBleActivity;
 import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.R;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.DiscoverPeripheral;
+
+import static android.content.ContentValues.TAG;
 
 public class BleScanAdapter extends BaseAdapter {
 
@@ -77,9 +82,14 @@ public class BleScanAdapter extends BaseAdapter {
         connectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Toast.makeText(mContext, "Inside onClick", Toast.LENGTH_SHORT).show();
                 if (mOnButtonClickListener != null) {
+
+                    Toast.makeText(mContext, "Inside if (mOnButtonClickListener != null)", Toast.LENGTH_SHORT).show();
                     mOnButtonClickListener.onClick(position);
+
                 }
+                Log.i(TAG, "onClick: Connect");
             }
         });
 
@@ -102,6 +112,8 @@ public class BleScanAdapter extends BaseAdapter {
     }
 
     public void setOnButtonClickListener(OnButtonClickListener listener) {
+
+
         mOnButtonClickListener = listener;
     }
 

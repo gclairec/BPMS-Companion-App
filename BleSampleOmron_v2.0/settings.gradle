@@ -1,2 +1,2 @@
-include ':blesampleomron'
+include ':blesampleomron', ':bpmsapplication', ':qrcodescan'
 include ':blenativewrapper'
