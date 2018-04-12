@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/blenativewrapper/blenativewrapper.iml" filepath="$PROJECT_DIR$/blenativewrapper/blenativewrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/blesampleomron/blesampleomron.iml" filepath="$PROJECT_DIR$/blesampleomron/blesampleomron.iml" />
       <module fileurl="file://$PROJECT_DIR$/bpmsapplication/bpmsapplication.iml" filepath="$PROJECT_DIR$/bpmsapplication/bpmsapplication.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qrcodescan/qrcodescan.iml" filepath="$PROJECT_DIR$/qrcodescan/qrcodescan.iml" />
     </modules>
   </component>
 </project>

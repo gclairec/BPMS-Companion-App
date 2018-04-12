@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+
 public class SplashActivity extends AppCompatActivity {
 
     Handler handler;
@@ -32,7 +33,8 @@ public class SplashActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                    Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+
+                Intent intent = new Intent(SplashActivity.this, QRCodeScanActivity.class);
 //                Intent intent = new Intent(this, Class.forName(com.google.android.gms.samples.vision.barcodereader))
 //                Intent intent = new Intent(this, Class.forName(com.google.android.gms.samples.vision.barcodereader));
                 startActivity(intent);
