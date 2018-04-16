@@ -1,6 +1,8 @@
 package com.bpmsthesis.claire.bpmsapplication;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,7 +20,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class QRCodeScanActivity extends AppCompatActivity {
-    public String patientID;
+    public static String patientID;
+    public static int hours, minutes, seconds;
 
     private Button button;
 
@@ -42,15 +45,31 @@ public class QRCodeScanActivity extends AppCompatActivity {
         });
     }
 
+    public void saveUserInfo()
+    {
+        SharedPreferences sharedPref = getSharedPreferences("userInfo", Context
+        .MODE_PRIVATE);
+        SharedPreferences sharedPrefNotif = getSharedPreferences("notifFreq", Context
+                .MODE_PRIVATE);
+        SharedPreferences.Editor userInfoEditor = sharedPref.edit();
+        userInfoEditor.putString("patientID", patientID);
+        userInfoEditor.apply();
+        SharedPreferences.Editor userNotifEditor = sharedPrefNotif.edit();
+        userNotifEditor.putInt("hours", hours);
+        userNotifEditor.putInt("minutes", minutes);
+        userNotifEditor.putInt("seconds", seconds);
+        userNotifEditor.apply();
+        Toast.makeText(this, "Data Saved!", Toast.LENGTH_LONG).show();
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         String qrData;
         String dataQR = null;
         TextView patID, freq;
+        String _patID;
+        int _hours, _mins, _secs;
 
-        int hours;
-        int minutes;
-        int seconds;
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if(result != null) {
             if(result.getContents() == null) {
@@ -78,25 +97,37 @@ public class QRCodeScanActivity extends AppCompatActivity {
                     minutes = freq_qr.getInt("minutes");
                     seconds = freq_qr.getInt("seconds");
 
-                    try {
-                        SQLiteDatabase mydatabase = openOrCreateDatabase(patientID,MODE_PRIVATE,null);
-                        Toast.makeText(this, "DB Created", Toast.LENGTH_SHORT).show();
-                    }finally {
-
-                    }
-
+//                    try {
+////                        SQLiteDatabase mydatabase = openOrCreateDatabase("PATIENT_BP_DATA",MODE_PRIVATE,null);
+//                        Toast.makeText(this, "DB Created", Toast.LENGTH_SHORT).show();
+//                    }finally {
+//
+//                    }
+                        saveUserInfo();
                     // set employee name and salary in TextView's
-                    patID.setText("PatientID: "+patientID);
-                    freq.setText(String.format("Frequency: H:%s, M:%s, S:%s", hours, minutes, seconds));
+
+
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
 
+                SharedPreferences sharedPref = getSharedPreferences("userInfo", Context
+                        .MODE_PRIVATE);
+                SharedPreferences sharedPrefNotif = getSharedPreferences("notifFreq", Context
+                        .MODE_PRIVATE);
+//
 
+                _patID = sharedPref.getString("patientID", "");
+                _hours = sharedPrefNotif.getInt("hours", 0);
+                _mins = sharedPrefNotif.getInt("minutes", 0);
+                _secs = sharedPrefNotif.getInt("seconds", 0);
 
+                patID.setText("PatientID: "+ _patID);
+                freq.setText(String.format("Frequency: H:%s, M:%s, S:%s", _hours, _mins, _secs));
 
-
+                Intent intent = new Intent(QRCodeScanActivity.this, UserNavDrawer.class);
+                startActivity(intent);
             }
         } else {
             // This is important, otherwise the result will not be passed to the fragment

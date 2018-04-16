@@ -24,7 +24,7 @@ import java.util.UUID;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.DiscoverPeripheral;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.GattUUID;
 
-public class BlsActivity extends BaseBleActivity {
+public final class BlsActivity extends BaseBleActivity {
 
     private TextView mTimestampView;
     private TextView mSystolicView;
