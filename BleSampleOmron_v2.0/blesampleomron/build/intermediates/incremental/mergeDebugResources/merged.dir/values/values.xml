@@ -1,9 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="coordinatorLayoutStyle"/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
+    <attr format="integer" name="layout_constraintBaseline_creator"/>
+    <attr format="reference|enum" name="layout_constraintBaseline_toBaselineOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="integer" name="layout_constraintBottom_creator"/>
+    <attr format="reference|enum" name="layout_constraintBottom_toBottomOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintBottom_toTopOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="string" name="layout_constraintDimensionRatio"/>
+    <attr format="reference|enum" name="layout_constraintEnd_toEndOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintEnd_toStartOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="dimension" name="layout_constraintGuide_begin"/>
+    <attr format="dimension" name="layout_constraintGuide_end"/>
+    <attr format="float" name="layout_constraintGuide_percent"/>
+    <attr name="layout_constraintHeight_default">
+        <enum name="spread" value="0"/>
+        <enum name="wrap" value="1"/>
+    </attr>
+    <attr format="dimension" name="layout_constraintHeight_max"/>
+    <attr format="dimension" name="layout_constraintHeight_min"/>
+    <attr format="float" name="layout_constraintHorizontal_bias"/>
+    <attr format="enum" name="layout_constraintHorizontal_chainStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="layout_constraintHorizontal_weight"/>
+    <attr format="integer" name="layout_constraintLeft_creator"/>
+    <attr format="reference|enum" name="layout_constraintLeft_toLeftOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintLeft_toRightOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="integer" name="layout_constraintRight_creator"/>
+    <attr format="reference|enum" name="layout_constraintRight_toLeftOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintRight_toRightOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintStart_toEndOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintStart_toStartOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="integer" name="layout_constraintTop_creator"/>
+    <attr format="reference|enum" name="layout_constraintTop_toBottomOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="reference|enum" name="layout_constraintTop_toTopOf">
+        <enum name="parent" value="0"/>
+    </attr>
+    <attr format="float" name="layout_constraintVertical_bias"/>
+    <attr format="enum" name="layout_constraintVertical_chainStyle">
+        <enum name="spread" value="0"/>
+        <enum name="spread_inside" value="1"/>
+        <enum name="packed" value="2"/>
+    </attr>
+    <attr format="float" name="layout_constraintVertical_weight"/>
+    <attr name="layout_constraintWidth_default">
+        <enum name="spread" value="0"/>
+        <enum name="wrap" value="1"/>
+    </attr>
+    <attr format="dimension" name="layout_constraintWidth_max"/>
+    <attr format="dimension" name="layout_constraintWidth_min"/>
+    <attr format="dimension" name="layout_editor_absoluteX"/>
+    <attr format="dimension" name="layout_editor_absoluteY"/>
+    <attr format="dimension" name="layout_goneMarginBottom"/>
+    <attr format="dimension" name="layout_goneMarginEnd"/>
+    <attr format="dimension" name="layout_goneMarginLeft"/>
+    <attr format="dimension" name="layout_goneMarginRight"/>
+    <attr format="dimension" name="layout_goneMarginStart"/>
+    <attr format="dimension" name="layout_goneMarginTop"/>
+    <attr name="layout_optimizationLevel">
+        <flag name="none" value="1"/>
+        <flag name="all" value="2"/>
+        <flag name="basic" value="4"/>
+        <flag name="chains" value="8"/>
+    </attr>
     <attr format="string" name="title"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_allow_stacked_button_bar">false</bool>
@@ -15,10 +104,13 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="appName">#E8F6F7</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue">#ffffff</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -27,6 +119,9 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorAccent">#FA8024</color>
+    <color name="colorPrimary">#5DBFC5</color>
+    <color name="colorPrimaryDark">#18A3AC</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -36,6 +131,7 @@
     <color name="foreground_material_light">@android:color/black</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
+    <color name="ic_launcher_background">#26A69A</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -64,12 +160,27 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="splashBackground">#18A3AC</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="white">#ffffff</color>
+    <color name="zxing_custom_possible_result_points">#903A89CF</color>
+    <color name="zxing_custom_result_view">#b0000000</color>
+    <color name="zxing_custom_viewfinder_laser">#1976D2</color>
+    <color name="zxing_custom_viewfinder_mask">#60000000</color>
+    <color name="zxing_possible_result_points">#c0ffbd21</color>
+    <color name="zxing_result_view">#b0000000</color>
+    <color name="zxing_status_text">#ffffffff</color>
+    <color name="zxing_transparent">#00000000</color>
+    <color name="zxing_viewfinder_laser">#ffcc0000</color>
+    <color name="zxing_viewfinder_mask">#60000000</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -130,6 +241,7 @@
     <declare-styleable name="AppCompatTheme"><attr format="boolean" name="windowActionBar"/><attr format="boolean" name="windowNoTitle"/><attr format="boolean" name="windowActionBarOverlay"/><attr format="boolean" name="windowActionModeOverlay"/><attr format="dimension|fraction" name="windowFixedWidthMajor"/><attr format="dimension|fraction" name="windowFixedHeightMinor"/><attr format="dimension|fraction" name="windowFixedWidthMinor"/><attr format="dimension|fraction" name="windowFixedHeightMajor"/><attr format="dimension|fraction" name="windowMinWidthMajor"/><attr format="dimension|fraction" name="windowMinWidthMinor"/><attr name="android:windowIsFloating"/><attr name="android:windowAnimationStyle"/><attr format="reference" name="actionBarTabStyle"/><attr format="reference" name="actionBarTabBarStyle"/><attr format="reference" name="actionBarTabTextStyle"/><attr format="reference" name="actionOverflowButtonStyle"/><attr format="reference" name="actionOverflowMenuStyle"/><attr format="reference" name="actionBarPopupTheme"/><attr format="reference" name="actionBarStyle"/><attr format="reference" name="actionBarSplitStyle"/><attr format="reference" name="actionBarTheme"/><attr format="reference" name="actionBarWidgetTheme"/><attr format="dimension" name="actionBarSize">
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSecondary"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/><attr format="reference" name="tooltipFrameBackground"/><attr format="reference|color" name="tooltipForegroundColor"/><attr format="reference|color" name="colorError"/><attr format="string" name="viewInflaterClass"/></declare-styleable>
+    <declare-styleable name="BarcodeScannerView"><attr format="boolean" name="shouldScaleToFill"/></declare-styleable>
     <declare-styleable name="ButtonBarLayout"><attr format="boolean" name="allowStacking"/></declare-styleable>
     <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
     <declare-styleable name="CompoundButton"><attr name="android:button"/><attr format="color" name="buttonTint"/><attr name="buttonTintMode">
@@ -146,6 +258,8 @@
             
             <enum name="add" value="16"/>
         </attr></declare-styleable>
+    <declare-styleable name="ConstraintLayout_Layout"><attr name="android:orientation"/><attr name="android:minWidth"/><attr name="android:minHeight"/><attr name="android:maxWidth"/><attr name="android:maxHeight"/><attr name="layout_optimizationLevel"/><attr name="constraintSet"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
+    <declare-styleable name="ConstraintSet"><attr name="android:orientation"/><attr name="android:id"/><attr name="android:visibility"/><attr name="android:alpha"/><attr name="android:elevation"/><attr name="android:rotationX"/><attr name="android:rotationY"/><attr name="android:scaleX"/><attr name="android:scaleY"/><attr name="android:transformPivotX"/><attr name="android:transformPivotY"/><attr name="android:translationX"/><attr name="android:translationY"/><attr name="android:translationZ"/><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_marginStart"/><attr name="android:layout_marginBottom"/><attr name="android:layout_marginTop"/><attr name="android:layout_marginEnd"/><attr name="android:layout_marginLeft"/><attr name="android:layout_marginRight"/><attr name="layout_constraintGuide_begin"/><attr name="layout_constraintGuide_end"/><attr name="layout_constraintGuide_percent"/><attr name="layout_constraintLeft_toLeftOf"/><attr name="layout_constraintLeft_toRightOf"/><attr name="layout_constraintRight_toLeftOf"/><attr name="layout_constraintRight_toRightOf"/><attr name="layout_constraintTop_toTopOf"/><attr name="layout_constraintTop_toBottomOf"/><attr name="layout_constraintBottom_toTopOf"/><attr name="layout_constraintBottom_toBottomOf"/><attr name="layout_constraintBaseline_toBaselineOf"/><attr name="layout_constraintStart_toEndOf"/><attr name="layout_constraintStart_toStartOf"/><attr name="layout_constraintEnd_toStartOf"/><attr name="layout_constraintEnd_toEndOf"/><attr name="layout_goneMarginLeft"/><attr name="layout_goneMarginTop"/><attr name="layout_goneMarginRight"/><attr name="layout_goneMarginBottom"/><attr name="layout_goneMarginStart"/><attr name="layout_goneMarginEnd"/><attr name="layout_constraintHorizontal_bias"/><attr name="layout_constraintVertical_bias"/><attr name="layout_constraintWidth_default"/><attr name="layout_constraintHeight_default"/><attr name="layout_constraintWidth_min"/><attr name="layout_constraintWidth_max"/><attr name="layout_constraintHeight_min"/><attr name="layout_constraintHeight_max"/><attr name="layout_constraintLeft_creator"/><attr name="layout_constraintTop_creator"/><attr name="layout_constraintRight_creator"/><attr name="layout_constraintBottom_creator"/><attr name="layout_constraintBaseline_creator"/><attr name="layout_constraintDimensionRatio"/><attr name="layout_constraintHorizontal_weight"/><attr name="layout_constraintVertical_weight"/><attr name="layout_constraintHorizontal_chainStyle"/><attr name="layout_constraintVertical_chainStyle"/><attr name="layout_editor_absoluteX"/><attr name="layout_editor_absoluteY"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
     <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
             
@@ -224,6 +338,7 @@
             <enum name="normal" value="0"/>
             <enum name="italic" value="1"/>
         </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/></declare-styleable>
+    <declare-styleable name="LinearConstraintLayout"><attr name="android:orientation"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat"><attr name="android:orientation"/><attr name="android:gravity"/><attr name="android:baselineAligned"/><attr name="android:baselineAlignedChildIndex"/><attr name="android:weightSum"/><attr format="boolean" name="measureWithLargestChild"/><attr name="divider"/><attr name="showDividers">
             <flag name="none" value="0"/>
             <flag name="beginning" value="1"/>
@@ -328,6 +443,13 @@
             <enum name="add" value="16"/>
         </attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
+    <declare-styleable name="zxing_camera_preview"><attr format="dimension" name="zxing_framing_rect_width"/><attr format="dimension" name="zxing_framing_rect_height"/><attr format="boolean" name="zxing_use_texture_view"/><attr format="enum" name="zxing_preview_scaling_strategy">
+      <enum name="centerCrop" value="1"/>
+      <enum name="fitCenter" value="2"/>
+      <enum name="fitXY" value="3"/>
+    </attr></declare-styleable>
+    <declare-styleable name="zxing_finder"><attr format="color" name="zxing_possible_result_points"/><attr format="color" name="zxing_result_view"/><attr format="color" name="zxing_viewfinder_laser"/><attr format="color" name="zxing_viewfinder_mask"/></declare-styleable>
+    <declare-styleable name="zxing_view"><attr format="reference" name="zxing_scanner_layout"/></declare-styleable>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_content_inset_with_nav">72dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -458,6 +580,15 @@
     <item name="text2" type="id"/>
     <item name="title" type="id"/>
     <item name="up" type="id"/>
+    <item name="zxing_back_button" type="id"/>
+    <item name="zxing_camera_closed" type="id"/>
+    <item name="zxing_camera_error" type="id"/>
+    <item name="zxing_decode" type="id"/>
+    <item name="zxing_decode_failed" type="id"/>
+    <item name="zxing_decode_succeeded" type="id"/>
+    <item name="zxing_possible_result_points" type="id"/>
+    <item name="zxing_preview_failed" type="id"/>
+    <item name="zxing_prewiew_size_ready" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="animation_duration_millisecond">300</integer>
@@ -465,6 +596,8 @@
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="scan_result_refresh_interval_millisecond">500</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <integer name="viewfinder_border_width">4</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -499,7 +632,7 @@
     <string name="ad_structure_length">LEN</string>
     <string name="ad_structure_type">TYPE</string>
     <string name="ad_structure_value">VALUE</string>
-    <string name="app_name">BPMS_Companion_App</string>
+    <string name="app_name">BPMLab</string>
     <string name="bluetooth_doesnt_work">Bluetooth isn\'t working on this device.\nPlease enable Bluetooth.</string>
     <string name="bond_state_bonded">BONDED</string>
     <string name="bond_state_bonding">BONDING</string>
@@ -575,20 +708,23 @@
     <string name="title_use_refresh_gatt">Use refreshGatt</string>
     <string name="title_use_remove_bond">Use removeBond</string>
     <string name="title_write_cts">Write CTS</string>
+    <string name="zxing_app_name">Barcode Scanner</string>
+    <string name="zxing_button_ok">OK</string>
+    <string name="zxing_msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="zxing_msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="Animation.AppCompat.Tooltip" parent="Base.Animation.AppCompat.Tooltip"/>
-    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
-        <!--
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        -->
-    </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -2040,4 +2176,6 @@
     <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
         <item name="statusBarBackground">#000000</item>
     </style>
+    <style name="zxing_CaptureTheme" parent="android:Theme.Black.NoTitleBar.Fullscreen">
+  </style>
 </resources>

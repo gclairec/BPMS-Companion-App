@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-it\\values-it.xml",
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-it\\values-it.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.5.0.aar\\d81a0513f96218e12790b4064a978d70\\res\\values-it\\values-it.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,334",
+                        "endColumns": "58,46,172,128",
+                        "endOffsets": "109,156,329,458"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2050,2109,2156,2329",
+                        "endColumns": "58,46,172,128",
+                        "endOffsets": "2104,2151,2324,2453"
+                    }
+                },
                 {
                     "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\1a92ce16260aa4709e023c7714c80516\\res\\values-it\\values-it.xml",
                     "from": {

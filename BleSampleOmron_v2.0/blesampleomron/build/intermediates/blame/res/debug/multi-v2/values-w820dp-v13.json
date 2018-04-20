@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\zxing-android-embedded-3.5.0.aar\\d81a0513f96218e12790b4064a978d70\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "10",
+                        "endOffsets": "150"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "189",
+                        "endLines": "6",
+                        "endColumns": "10",
+                        "endOffsets": "284"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",

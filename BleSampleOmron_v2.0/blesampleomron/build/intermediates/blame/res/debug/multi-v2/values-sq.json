@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
                     "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cd22f1b681ad180e2f28eda52f744ccc\\res\\values-sq\\values-sq.xml",

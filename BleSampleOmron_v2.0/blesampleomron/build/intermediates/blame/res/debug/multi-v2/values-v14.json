@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\bpmApp\\BleSampleOmron_v2.0\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",

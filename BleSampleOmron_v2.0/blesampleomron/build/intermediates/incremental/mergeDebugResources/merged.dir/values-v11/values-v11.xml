@@ -3,4 +3,6 @@
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <!-- API 11 theme customizations can go here. -->
     </style>
+    <style name="zxing_CaptureTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+  </style>
 </resources>

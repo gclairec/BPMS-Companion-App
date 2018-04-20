@@ -2,7 +2,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "jp.co.omron.healthcare.sampleapps.ble.blesampleomron"
@@ -10,12 +9,21 @@ android {
         targetSdkVersion 27
         versionCode 1
         versionName "2.0.13"
+
+
     }
 
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+    repositories {
+        maven {
+            url "https://jitpack.io"
         }
     }
 
@@ -41,5 +49,12 @@ android {
 dependencies {
     implementation project(path: ':bpmsapplication', configuration: 'default')
     implementation project(':blenativewrapper')
-    compile 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+    implementation 'com.journeyapps:zxing-android-embedded:3.5.0@aar'
+    //Add dependency
+    implementation 'com.google.zxing:core:3.3.0'
 }
