@@ -169,6 +169,16 @@ public class BaseBleActivity extends AppCompatActivity {
             });
         }
 
+        final Button sendBtn = (Button) findViewById(R.id.btnSend);
+        if (null != sendBtn) {
+            sendBtn.setOnClickListener(new OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    onClickSendButton();
+                }
+            });
+        }
+
 //        mBluetoothSwitch = (Switch) findViewById(R.id.bluetoothSwitch);
 //        mBluetoothSwitch.setOnClickListener(new OnClickListener() {
 //            @Override
@@ -192,6 +202,9 @@ public class BaseBleActivity extends AppCompatActivity {
 
         initDeviceInfoView();
         initConnectionView();
+    }
+
+    void onClickSendButton() {
     }
 
     @Override

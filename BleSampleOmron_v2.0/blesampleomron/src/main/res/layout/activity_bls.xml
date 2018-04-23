@@ -133,14 +133,20 @@
 
             <Button
                 android:id="@+id/btnConnect"
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:enabled="true"
                 android:text="Connect"/>
 
             <Button
+                android:id="@+id/btnSend"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+
+            <Button
                 android:id="@+id/btnHistory"
-                android:layout_width="150dp"
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="History" />
         </LinearLayout>

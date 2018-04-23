@@ -116,6 +116,7 @@
             </intent-filter>
         </activity>
         <activity android:name="jp.co.omron.healthcare.sampleapps.ble.blesampleomron.main.QRCodeScanActivity" />
+        <activity android:name="jp.co.omron.healthcare.sampleapps.ble.blesampleomron.ble_mcu.SendMCUActivity" />
         <activity
             android:name="com.journeyapps.barcodescanner.CaptureActivity"
             android:clearTaskOnLaunch="true"

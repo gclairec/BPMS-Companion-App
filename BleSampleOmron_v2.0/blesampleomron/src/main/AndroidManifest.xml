@@ -5,7 +5,7 @@
     <!-- PROTECTION_NORMAL -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
     <uses-permission android:name="android.permission.ACCESS_PROVIDER" />
     <uses-permission android:name="android.permission.READ_ATTACHMENT" />
 
@@ -91,7 +91,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".main.QRCodeScanActivity"></activity>
+        <activity android:name=".main.QRCodeScanActivity" />
+        <activity android:name=".ble_mcu.SendMCUActivity"></activity>
     </application>
 
 </manifest>

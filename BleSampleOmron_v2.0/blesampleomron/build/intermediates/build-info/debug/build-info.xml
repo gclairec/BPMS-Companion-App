@@ -6,40 +6,31 @@
     density="hdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1524502090898"
+    timestamp="1524508318103"
     token="-8671569065818433657"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="15622" />
+        duration="12962" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5878" />
+        duration="1383" />
     <task
         name="verifier"
-        duration="1302" />
+        duration="1328" />
 
     <artifact
-        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
         location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
     <artifact
         location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -59,28 +50,28 @@
     <artifact
         location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\outputs\apk\debug\debug-2.0.13.apk"
         type="SPLIT_MAIN" />
+    <artifact
+        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1524502090898"
+        timestamp="1524508318103"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_5.apk"
@@ -100,6 +91,15 @@
         <artifact
             location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\outputs\apk\debug\debug-2.0.13.apk"
             type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

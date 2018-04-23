@@ -8,11 +8,14 @@
 
 package jp.co.omron.healthcare.sampleapps.ble.blesampleomron;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Message;
 import android.support.annotation.NonNull;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -21,11 +24,15 @@ import java.util.Calendar;
 import java.util.Locale;
 import java.util.UUID;
 
+import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.ble_mcu.SendMCUActivity;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.DiscoverPeripheral;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.GattUUID;
 
 public final class BlsActivity extends BaseBleActivity {
-
+    public static String espData;
+    public static short systolicVal;
+    public static short diastolicVal;
+    public static String timestampStr;
     private TextView mTimestampView;
     private TextView mSystolicView;
     private TextView mDiastolicView;
@@ -112,8 +119,8 @@ public final class BlsActivity extends BaseBleActivity {
                 }
 
                 // Parse Blood Pressure Measurement
-                short systolicVal = 0;
-                short diastolicVal = 0;
+//                short systolicVal = 0;
+//                short diastolicVal = 0;
                 short meanApVal = 0;
 
                 System.arraycopy(data, idx, buf, 0, 2);
@@ -143,7 +150,7 @@ public final class BlsActivity extends BaseBleActivity {
                 mMeanApView.setText(Float.toString(meanApVal) + " " + unit);
 
                 // Parse Timestamp
-                String timestampStr = "----";
+//                String timestampStr = "----";
                 String dateStr = "--";
                 String timeStr = "--";
                 if (timestampFlag) {
@@ -257,6 +264,26 @@ public final class BlsActivity extends BaseBleActivity {
         startActivity(intent);
     }
 
+    @Override
+    protected void onClickSendButton() {
+        super.onClickSendButton();
+//        cbuf.put(Float.toString(systolicVal));
+//        cbuf.put(Float.toString(diastolicVal));
+        //cbuf.put(timestampStr);
+        //cbuf.flip();
+
+        SharedPreferences sharedPref = getSharedPreferences( "userInfo", Context
+                .MODE_PRIVATE);
+
+        String _patID;
+
+        _patID = sharedPref.getString("patientID", "");
+        espData = _patID+timestampStr+Float.toString(systolicVal)+Float.toString(diastolicVal);
+
+        Toast.makeText(this, espData, Toast.LENGTH_LONG).show();
+//        Intent intent = new Intent(BlsActivity.this, SendMCUActivity.class);
+//        startActivity(intent);
+    }
 
     private void initVitalDataView() {
         mTimestampView.setText("----");
