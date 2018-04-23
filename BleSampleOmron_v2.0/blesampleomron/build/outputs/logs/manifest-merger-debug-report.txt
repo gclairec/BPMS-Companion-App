@@ -4,18 +4,23 @@ ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:2:1-97:12
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:2:1-97:12
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:2:1-97:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2ee04a3a9b55f706fb73edf1da336728\AndroidManifest.xml:17:1-22:12
 MERGED from [:blenativewrapper] C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e44ed1ca31ef76793cda67fed6560174\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1a92ce16260aa4709e023c7714c80516\AndroidManifest.xml:17:1-22:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-1.9.aar\3029d4cd6b8b0e55d6f98a36e813b960\AndroidManifest.xml:2:1-13:12
-MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:17:1-55:12
 MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\core-1.9.aar\77308f0323d629374826e20e77c53d09\AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.1.aar\de7bcb2ac6d18abdc64682cad0104dd4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\aadd20aaeeecd60cb4c4f3642b9db58d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:17:1-55:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7a86b93e4a4de0556f853b8d06fced22\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\42a016c3567518da7b14808a3cfad459\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\07a209ed512d825293a92f56877447cd\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d78bf5a8927623c2772120ea53d6a087\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c542b0e2464fef12325e6205da40992d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cb62bc0aeffc953bb7fbbbdd6b9b9d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3f39230193ddd83bd0cdcb3fee05abe7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\35cf8a0b1596321bf8454fb3611a4396\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cd22f1b681ad180e2f28eda52f744ccc\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d88291a083bd61d9f661e294686eba7f\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a62c4f0553bc8ec110ce9a2ad83c5409\AndroidManifest.xml:17:1-22:12
@@ -50,10 +55,6 @@ MERGED from [:blenativewrapper] C:\Users\CLAIRE\Desktop\Thesis\finalThesis\andro
 MERGED from [:blenativewrapper] C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-74
 	android:name
 		ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:7:22-71
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:8:5-67
-	android:name
-		ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_PROVIDER
 ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:9:5-74
 	android:name
@@ -96,16 +97,14 @@ ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_
 		ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:22:9-53
 application
 ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:25:5-95:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:9:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-1.9.aar\3029d4cd6b8b0e55d6f98a36e813b960\AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-1.9.aar\3029d4cd6b8b0e55d6f98a36e813b960\AndroidManifest.xml:11:5-20
-MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:45:5-53:19
-MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:45:5-53:19
 MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\core-1.9.aar\77308f0323d629374826e20e77c53d09\AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\core-1.9.aar\77308f0323d629374826e20e77c53d09\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.1.aar\de7bcb2ac6d18abdc64682cad0104dd4\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.1.aar\de7bcb2ac6d18abdc64682cad0104dd4\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:9:5-20
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:45:5-53:19
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:45:5-53:19
 	android:label
 		ADDED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml:29:9-41
 	android:icon
@@ -212,30 +211,40 @@ uses-sdk
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml
 INJECTED from C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blesampleomron\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2ee04a3a9b55f706fb73edf1da336728\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\2ee04a3a9b55f706fb73edf1da336728\AndroidManifest.xml:20:5-43
 MERGED from [:blenativewrapper] C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:blenativewrapper] C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e44ed1ca31ef76793cda67fed6560174\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\e44ed1ca31ef76793cda67fed6560174\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1a92ce16260aa4709e023c7714c80516\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\1a92ce16260aa4709e023c7714c80516\AndroidManifest.xml:20:5-44
 MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-1.9.aar\3029d4cd6b8b0e55d6f98a36e813b960\AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-1.9.aar\3029d4cd6b8b0e55d6f98a36e813b960\AndroidManifest.xml:7:5-9:41
-MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:19:5-43
-MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:19:5-43
 MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\core-1.9.aar\77308f0323d629374826e20e77c53d09\AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:core:1.9] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\core-1.9.aar\77308f0323d629374826e20e77c53d09\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.1.aar\de7bcb2ac6d18abdc64682cad0104dd4\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.2.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-23.2.1.aar\de7bcb2ac6d18abdc64682cad0104dd4\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\aadd20aaeeecd60cb4c4f3642b9db58d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\aadd20aaeeecd60cb4c4f3642b9db58d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\4ccbc5b4a3fcc17f1fbb41eb5c1f8ee7\AndroidManifest.xml:5:5-7:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:19:5-43
+MERGED from [com.journeyapps:zxing-android-embedded:3.5.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\zxing-android-embedded-3.5.0.aar\d81a0513f96218e12790b4064a978d70\AndroidManifest.xml:19:5-43
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7a86b93e4a4de0556f853b8d06fced22\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7a86b93e4a4de0556f853b8d06fced22\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\42a016c3567518da7b14808a3cfad459\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\42a016c3567518da7b14808a3cfad459\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\07a209ed512d825293a92f56877447cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\07a209ed512d825293a92f56877447cd\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d78bf5a8927623c2772120ea53d6a087\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\d78bf5a8927623c2772120ea53d6a087\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c542b0e2464fef12325e6205da40992d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c542b0e2464fef12325e6205da40992d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cb62bc0aeffc953bb7fbbbdd6b9b9d8\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9cb62bc0aeffc953bb7fbbbdd6b9b9d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3f39230193ddd83bd0cdcb3fee05abe7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\3f39230193ddd83bd0cdcb3fee05abe7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\35cf8a0b1596321bf8454fb3611a4396\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\35cf8a0b1596321bf8454fb3611a4396\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cd22f1b681ad180e2f28eda52f744ccc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\cd22f1b681ad180e2f28eda52f744ccc\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\CLAIRE\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d88291a083bd61d9f661e294686eba7f\AndroidManifest.xml:20:5-44

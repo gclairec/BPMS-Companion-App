@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\values-night-v8\\values-night-v8.xml",
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\1a92ce16260aa4709e023c7714c80516\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

@@ -4,13 +4,32 @@
             "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blenativewrapper\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\6f63f94ae0ed94de82079646157674bf\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\cd22f1b681ad180e2f28eda52f744ccc\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
                         "endColumns": "65",
                         "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\1a92ce16260aa4709e023c7714c80516\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
                     }
                 }
             ]
