@@ -24,7 +24,8 @@ import java.util.Calendar;
 import java.util.Locale;
 import java.util.UUID;
 
-import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.ble_mcu.SendMCUActivity;
+
+import jp.co.omron.healthcare.sampleapps.ble.blesampleomron.bluetoothlegatt.DeviceScanActivity;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.DiscoverPeripheral;
 import jp.co.omron.healthcare.samplelibs.ble.blenativewrapper.GattUUID;
 
@@ -168,7 +169,7 @@ public final class BlsActivity extends BaseBleActivity {
 
                     dateStr = String.format(Locale.US, "%1$04d-%2$02d-%3$02d", year, month, day);
                     timeStr = String.format(Locale.US, "%1$02d:%2$02d:%3$02d", hour, min, sec);
-                    timestampStr = dateStr + " " + timeStr;
+                    timestampStr = dateStr + timeStr;
                     AppLog.bleInfo("Timestamp Data:" + timestampStr);
                 }
                 mTimestampView.setText(timestampStr);
@@ -281,8 +282,9 @@ public final class BlsActivity extends BaseBleActivity {
         espData = _patID+timestampStr+Float.toString(systolicVal)+Float.toString(diastolicVal);
 
         Toast.makeText(this, espData, Toast.LENGTH_LONG).show();
-//        Intent intent = new Intent(BlsActivity.this, SendMCUActivity.class);
-//        startActivity(intent);
+
+        Intent intent = new Intent(BlsActivity.this, DeviceScanActivity.class);
+        startActivity(intent);
     }
 
     private void initVitalDataView() {

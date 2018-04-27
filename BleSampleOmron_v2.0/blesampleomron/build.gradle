@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 26
 
     defaultConfig {
         applicationId "jp.co.omron.healthcare.sampleapps.ble.blesampleomron"
-        minSdkVersion 18
-        targetSdkVersion 27
+        minSdkVersion 21
+        targetSdkVersion 26
         versionCode 1
         versionName "2.0.13"
         multiDexEnabled true
@@ -51,10 +51,10 @@ android {
 dependencies {
 //    implementation project(path: ':bpmsapplication', configuration: 'default')
     implementation project(':blenativewrapper')
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:design:26.1.0'
     testImplementation 'junit:junit:4.12'
     implementation 'me.dm7.barcodescanner:zxing:1.9'
     implementation 'com.journeyapps:zxing-android-embedded:3.5.0@aar'

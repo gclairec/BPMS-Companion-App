@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jp.co.omron.healthcare.sampleapps.ble.blesampleomron.bluetoothlegatt.DeviceControlActivity">
+
+    <TextView
+        android:id="@+id/textDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textDeviceAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ExpandableListView
+        android:id="@+id/gatt_services_list"
+        android:layout_width="match_parent"
+        android:layout_height="224dp">
+
+    </ExpandableListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnWrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Write"
+            android:onClick="onClickWrite"/>
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Read"
+            android:onClick="onClickRead"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/data_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Data" />
+
+</LinearLayout>

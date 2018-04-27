@@ -1,2 +1,2 @@
-include ':blesampleomron', ':bpmsapplication'
+include ':blesampleomron', ':espconnect'
 include ':blenativewrapper'

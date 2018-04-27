@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\blemcu\\Application\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v12\\values-v12.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5ed1a47f94d776f89e6fcfb5e3e2dc\\res\\values-v12\\values-v12.xml",
+                    "from": {
+                        "startLines": "2,5,8,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,279,479,598",
+                        "endLines": "4,7,8,9",
+                        "endColumns": "12,12,118,94",
+                        "endOffsets": "274,474,593,688"
+                    }
+                }
+            ]
+        }
+    ]
+}

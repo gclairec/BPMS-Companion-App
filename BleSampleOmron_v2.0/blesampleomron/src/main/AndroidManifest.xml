@@ -81,6 +81,10 @@
             android:screenOrientation="portrait" />
 
         <service
+            android:name=".bluetoothlegatt.BluetoothLeService"
+            android:enabled="true" />
+
+        <service
             android:name=".LogViewService"
             android:enabled="true" />
 
@@ -92,7 +96,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".main.QRCodeScanActivity" />
-        <activity android:name=".ble_mcu.SendMCUActivity"></activity>
+        <activity android:name=".bluetoothlegatt.DeviceControlActivity"/>
+        <activity android:name=".bluetoothlegatt.DeviceScanActivity"/>
     </application>
 
 </manifest>

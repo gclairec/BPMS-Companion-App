@@ -84,6 +84,7 @@ public class BaseBleActivity extends AppCompatActivity {
     private TextView mGattStatusView;
     private TextView mDetailedStateView;
     private Button mConnectBtn;
+    private Button mSendBtn;
 //    private Switch mBluetoothSwitch;
     private UUID[] mScanFilteringServiceUuids = null;
     private BlePeripheral mTargetPeripheral;
@@ -158,6 +159,8 @@ public class BaseBleActivity extends AppCompatActivity {
                 }
             }
         });
+
+
 
         final Button historicalBtn = (Button) findViewById(R.id.btnHistory);
         if (null != historicalBtn) {
@@ -344,6 +347,25 @@ public class BaseBleActivity extends AppCompatActivity {
         intent.putParcelableArrayListExtra(BleScanActivity.EXTRA_SCAN_FILTERING_SERVICE_UUIDS, parcelUuidList);
         startActivityForResult(intent, REQUEST_CODE_SCAN);
     }
+
+//    private void startMCUScanListView() {
+//        AppLog.dMethodIn();
+////        if (!mIsBluetoothOn) {
+////            Toast.makeText(BaseBleActivity.this, R.string.bluetooth_doesnt_work, Toast.LENGTH_LONG).show();
+////            return;
+////        }
+//        Intent intent = new Intent(BaseBleActivity.this, MCUBleScanActivity.class);
+//        ArrayList<ParcelUuid> parcelUuidList = new ArrayList<>();
+//        for (UUID uuid : mScanFilteringServiceUuids) {
+//            parcelUuidList.add(new ParcelUuid(uuid));
+//        }
+////        String uuid0 = parcelUuidList.get(0).getUuid().toString();
+////        Toast.makeText(BaseBleActivity.this, uuid0, Toast.LENGTH_LONG).show();
+//
+//
+//        intent.putParcelableArrayListExtra(MCUBleScanActivity.EXTRA_SCAN_FILTERING_SERVICE_UUIDS, parcelUuidList);
+//        startActivityForResult(intent, REQUEST_CODE_SCAN);
+//    }
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

@@ -1,4 +1,4 @@
-#Tue Apr 24 00:50:25 CST 2018
-base.0=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+#Thu Apr 26 18:05:46 CST 2018
+base.0=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\25
 path.0=classes.dex
 renamed.0=classes.dex

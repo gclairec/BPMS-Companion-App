@@ -97,5 +97,24 @@
     <string name="title_use_refresh_gatt">Use refreshGatt</string>
 
     <string name="summary_format_time">%1$s ms</string>
+    <string name="send">Send</string>
+    <string name="sending">Sending</string>
+    <string name="sent">Sent</string>
+    <string name="label_device_address">Device Address:</string>
+    <string name="label_state">State:</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="label_data">Data:</string>
+    <string name="no_data">- - -</string>
+    <string name="connected">Connected</string>
+    <string name="unknown_sexrvice">Unknown Service</string>
+    <string name="unknown_characteristic">Unknown Characteristic</string>
+    <string name="ble_not_supported">BLE not Supported</string>
+    <string name="title_devices">Devices</string>
+    <string name="error_bluetooth_not_supported">Error: Bluetooth Not Supported</string>
+    <string name="unknown_device">Unknown Device</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
 
 </resources>
