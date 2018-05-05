@@ -33,6 +33,8 @@ import android.os.IBinder;
 import android.os.ParcelUuid;
 import android.util.Log;
 
+import org.json.JSONObject;
+
 import java.util.List;
 import java.util.UUID;
 

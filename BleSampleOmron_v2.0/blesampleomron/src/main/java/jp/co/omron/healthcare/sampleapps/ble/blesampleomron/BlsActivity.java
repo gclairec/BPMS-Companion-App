@@ -17,6 +17,9 @@ import android.support.annotation.NonNull;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.text.SimpleDateFormat;
@@ -42,7 +45,9 @@ public final class BlsActivity extends BaseBleActivity {
     private TextView mUserIDView;
     private TextView mBodyMovementView;
     private TextView mIrregularPulseView;
-
+//    public int year, month, day, hour, min, sec;
+    String dateStr = "--";
+    String timeStr = "--";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         AppLog.dMethodIn();
@@ -152,8 +157,7 @@ public final class BlsActivity extends BaseBleActivity {
 
                 // Parse Timestamp
 //                String timestampStr = "----";
-                String dateStr = "--";
-                String timeStr = "--";
+
                 if (timestampFlag) {
                     System.arraycopy(data, idx, buf, 0, 2);
                     idx += 2;
@@ -279,10 +283,25 @@ public final class BlsActivity extends BaseBleActivity {
         String _patID;
 
         _patID = sharedPref.getString("patientID", "");
-        espData = _patID+timestampStr+Float.toString(systolicVal)+Float.toString(diastolicVal);
 
-        Toast.makeText(this, espData, Toast.LENGTH_LONG).show();
+        JSONObject espData = new JSONObject();
+        JSONObject timestamp = new JSONObject();
 
+        try {
+            espData.put("patientID", _patID);
+            timestamp.put("date", dateStr);
+            timestamp.put("time", timeStr);
+            espData.put("timestamp", timestamp);
+            espData.put("systolicBP", systolicVal);
+            espData.put("diastolicBP", diastolicVal);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+//        espData = _patID+timestampStr+Float.toString(systolicVal)+Float.toString(diastolicVal);
+
+        Toast.makeText(this, "ESPDATA BYTES: " + espData.toString().length()+espData.toString(), Toast.LENGTH_LONG).show();
+//        Toast.makeText(this, "ESPDATA BYTES: " + espData.toString().length(), Toast.LENGTH_LONG).show();
         Intent intent = new Intent(BlsActivity.this, DeviceScanActivity.class);
         startActivity(intent);
     }

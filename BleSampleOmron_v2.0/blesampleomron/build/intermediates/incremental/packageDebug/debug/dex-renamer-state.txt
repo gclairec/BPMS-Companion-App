@@ -1,18 +1,21 @@
-#Fri Apr 27 20:09:16 CST 2018
+#Sun May 06 01:38:25 PHT 2018
 path.1=classes.dex
 path.0=classes.dex
+renamed.6=classes7.dex
 renamed.5=classes6.dex
 renamed.4=classes5.dex
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.5=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\36
-base.4=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\39
-base.3=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\34
-base.2=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\37
-base.1=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\35
-base.0=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\38
+base.6=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/72
+base.5=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/73
+base.4=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/70
+base.3=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/71
+base.2=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/69
+base.1=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/68
+base.0=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/10
+path.6=classes.dex
 path.5=classes.dex
 path.4=classes.dex
 path.3=classes.dex

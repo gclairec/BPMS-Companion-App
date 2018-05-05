@@ -1,27 +1,31 @@
 #Internal package file, do not edit.
-#Thu Apr 26 18:05:50 CST 2018
-2.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\34
+#Sun May 06 01:38:26 PHT 2018
+2.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/70
 5.set=DEX
 0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\37
+3.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/71
 2.set=DEX
 1.path=classes.dex
-4.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\38
-count=6
+4.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/69
+count=7
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\35
+5.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/68
 4.set=DEX
 3.path=classes.dex
+6.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/10
 3.baseType=DIRECTORY
 1.set=DEX
 4.path=classes.dex
+6.set=DEX
 1.baseType=DIRECTORY
+6.baseType=DIRECTORY
 5.path=classes.dex
-0.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\36
+0.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/72
 0.baseType=DIRECTORY
 3.set=DEX
-1.base=C\:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\blesampleomron\\build\\intermediates\\transforms\\dexMerger\\debug\\39
+6.path=classes.dex
+1.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blesampleomron/build/intermediates/transforms/dexMerger/debug/73
 4.baseType=DIRECTORY
 0.set=DEX

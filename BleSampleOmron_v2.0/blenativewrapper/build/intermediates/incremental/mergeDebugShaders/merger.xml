@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\CLAIRE\Desktop\Thesis\finalThesis\androidAPP\BleSampleOmron_v2.0\blenativewrapper\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blenativewrapper/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/blenativewrapper/src/debug/shaders"/></dataSet></merger>

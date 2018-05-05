@@ -75,7 +75,7 @@ public class DeviceScanActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send);
-        Toast.makeText(this, "Inside DeviceScanActivity", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Inside DeviceScanActivity", Toast.LENGTH_SHORT).show();
         // Check if BLE is supported on the device.
         if (!getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
             Toast.makeText(this,

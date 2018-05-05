@@ -1,0 +1,4 @@
+#Sun May 06 01:14:34 PHT 2018
+base.0=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/espconnect/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

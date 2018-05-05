@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\espconnect\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\espconnect\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5ed1a47f94d776f89e6fcfb5e3e2dc\\res\\values-port\\values-port.xml",
+                    "source": "/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ca5ed1a47f94d776f89e6fcfb5e3e2dc\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,25 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\espconnect\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/espconnect/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\56aa1766d00cccecdd2f9175b7726526\\res\\values-port\\values-port.xml",
+                    "source": "/home/froilan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/64d5db74b61f030d902aa025c6dc1671/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/C:\\Users\\CLAIRE\\Desktop\\Thesis\\finalThesis\\androidAPP\\BleSampleOmron_v2.0\\espconnect\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/C:\\Users\\CLAIRE\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\56aa1766d00cccecdd2f9175b7726526\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

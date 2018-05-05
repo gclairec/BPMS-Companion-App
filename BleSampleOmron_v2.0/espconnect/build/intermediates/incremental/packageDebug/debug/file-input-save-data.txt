@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun May 06 01:14:35 PHT 2018
+0.baseType=DIRECTORY
+0.base=/home/froilan/Desktop/gillianThesis/AndroidApp/BleSampleOmron_v2.0/espconnect/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
